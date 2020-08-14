@@ -165,7 +165,7 @@ class _HomeScreenDesktop extends StatelessWidget {
           child: Align(
             alignment: Alignment.centerRight,
             child: Padding(
-              padding: const EdgeInsets.all(2.0),
+              padding: const EdgeInsets.all(12.0),
               child: ContactsList(users: onlineUsers),
             ),
           ),
